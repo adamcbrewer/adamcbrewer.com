@@ -56,7 +56,7 @@
 
 		<footer class="footer">
 
-			<a href="http://twitter.com/adamcbrewer" target="_blank" title="Twitter">twitter</a> <a href="http://github.com/adamcbrewer" target="_blank" title="Github">github</a> <a href="https://plus.google.com/u/0/109651434155076896860/" target="_blank" title="Google Plus">google</a> <a href="http://za.linkedin.com/in/adamcbrewer" target="_blank" title="LinkedIn">linkedin</a>
+			<a class="icon icon-twitter" href="http://twitter.com/adamcbrewer" target="_blank" title="Twitter"></a> <a class="icon icon-github" href="http://github.com/adamcbrewer" target="_blank" title="Github"></a> <a class="icon icon-linkedin" href="http://za.linkedin.com/in/adamcbrewer" target="_blank" title="LinkedIn"></a> <a class="icon icon-gplus" href="https://plus.google.com/u/0/109651434155076896860/" target="_blank" title="Google Plus"></a>
 
 		</footer>
 

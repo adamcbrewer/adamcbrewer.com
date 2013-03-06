@@ -4,7 +4,7 @@
 
 @import "libs/helpers.less";
 @import "libs/normalize.less";
-
+@import "fontello.less";
 
 
 
@@ -56,7 +56,11 @@ body {
     background-color: @c-bg;
 }
 
-a { color: @c-main; text-decoration: none; }
+a {
+    color: @c-main;
+    text-decoration: none;
+    .transition(0.2s color ease);
+}
 a:link {}
 a:visited {}
 a:hover { color: darken(@c-text, 10%); text-decoration: none; }
