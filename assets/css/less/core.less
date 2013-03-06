@@ -1,0 +1,154 @@
+/* ====================================================
+    LESS IMPORTS
+==================================================== */
+
+@import "libs/helpers.less";
+@import "libs/normalize.less";
+
+
+
+
+/* ====================================================
+    LESS VARIABLES
+==================================================== */
+@c-bg: #fbfbfb;
+@c-text: #4f4f4f;
+
+@c-main: #2d6dc7;
+
+
+
+
+/* ====================================================
+    BASE STYLES
+
+    Base rules are the defaults. They are almost exclusively
+    single element selectors but it could include attribute selectors,
+    pseudo-class selectors, child selectors or sibling selectors.
+    Essentially, a base style says that wherever this element is on the page,
+    it should look like...
+==================================================== */
+
+* {
+    /* remove this if supporting ie7 */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* some defaults */
+    background-repeat: no-repeat;
+}
+
+
+::-moz-selection{ background: @c-main; color:#F8F8F8; text-shadow:none; }
+::selection { background: @c-main; color:#F8F8F8; text-shadow:none; }
+
+html, body {
+  -web-font-smoothing: antialiased;
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+    line-height: 1.4;
+    font-family: Baskerville, "utopia-std", "Hoefler Text", Georgia, Times, serif;
+    color: @c-text;
+    background-color: @c-bg;
+}
+
+a { color: @c-main; text-decoration: none; }
+a:link {}
+a:visited {}
+a:hover { color: darken(@c-text, 10%); text-decoration: none; }
+a:active {}
+a:focus {}
+
+/* ====================================================
+    LAYOUT STYLES
+
+    Layout rules divide the page into sections.
+    Layouts hold one or more modules together.
+==================================================== */
+
+.wrapper {
+    max-width: 22em;
+    font-size: 2.4em;
+    margin: auto;
+    padding: 2em 2%;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+.footer {
+    a { margin-right: 0.4em; }
+}
+.header {
+    color: lighten(@c-text, 55%);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.7em;
+    padding-bottom: 0.4em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #ddd;
+}
+h1 {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+
+
+/* ====================================================
+    MODULES STYLES
+
+    Modules are the reusable, modular parts of our design.
+    They are the callouts, the sidebar sections, the product lists and so on.
+==================================================== */
+
+
+
+/* ====================================================
+    STATES STYLES
+
+    State rules are ways to describe how our modules or layouts will
+    look when in a particular state.
+    Is it hidden or expanded? Is it active or inactive?
+    They are about describing how a module or layout looks on screens that are smaller or bigger.
+    They are also about describing how a module might look in different
+    views like the home page or the inside page.
+==================================================== */
+
+
+
+
+/* ==|== Media Queries ======================================================
+    PLACEHOLDER Media Queries for Responsive Design.
+    Modify as content requires.
+
+    Notes:
+    MOBILE FIRST - use min-width (lowest first) and style upwards
+    MOBILE RESPONSIVE - use max-width (highest first) and style downwards
+
+    Never set breakpoints for devices, only when the design requires it.
+========================================================================== */
+
+
+
+
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+    a, a:visited { text-decoration: underline; }
+    a[href]:after { content: " (" attr(href) ")"; }
+    abbr[title]:after { content: " (" attr(title) ")"; }
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+    pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+    thead { display: table-header-group; } /* h5bp.com/t */
+    tr, img { page-break-inside: avoid; }
+    img { max-width: 100% !important; }
+    @page { margin: 0.5cm; }
+    p, h2, h3 { orphans: 3; widows: 3; }
+    h2, h3 { page-break-after: avoid; }
+}
