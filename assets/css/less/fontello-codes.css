@@ -1,5 +1,8 @@
+@charset "UTF-8";
+
 
 .icon-at:before { content: '\40'; } /* '@' */
+.icon-mail:before { content: '\2709'; } /* '✉' */
 .icon-facebook-circled:before { content: '\f051'; } /* '' */
 .icon-facebook:before { content: '\f052'; } /* '' */
 .icon-github-circled-alt:before { content: '\f053'; } /* '' */
@@ -12,3 +15,16 @@
 .icon-gplus:before { content: '\f05a'; } /* '' */
 .icon-linkedin-circled:before { content: '\f05b'; } /* '' */
 .icon-linkedin:before { content: '\f05c'; } /* '' */
+.icon-twitter-1:before { content: '\f099'; } /* '' */
+.icon-facebook-1:before { content: '\f09a'; } /* '' */
+.icon-github-circled-1:before { content: '\f09b'; } /* '' */
+.icon-gplus-squared:before { content: '\f0d4'; } /* '' */
+.icon-gplus-1:before { content: '\f0d5'; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-linkedin-1:before { content: '\f0e1'; } /* '' */
+.icon-github-1:before { content: '\f113'; } /* '' */
+.icon-folder-empty:before { content: '\f114'; } /* '' */
+.icon-twitter-squared:before { content: '\f304'; } /* '' */
+.icon-facebook-squared:before { content: '\f308'; } /* '' */
+.icon-linkedin-squared:before { content: '\f30c'; } /* '' */
+.icon-folder:before { content: '📁'; } /* '\1f4c1' */

@@ -19,7 +19,6 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<? // FACEBOOK OPEN GRAPH ?>
 	<meta property="og:title" content="Adam Brewer"/>
 	<meta property="og:image" content="assets/img/me.jpg"/>
 	<meta property="og:site_name" content="Adam Brewer"/>
@@ -45,7 +44,7 @@
 		<header class="header">
 			<p>
 				<?= date('F Y', time('now')); ?><br />
-				<small>Developer at Saatchi, London</small>
+				<small>Senior Developer at Saatchi, London</small>
 			</p>
 		</header>
 
@@ -56,7 +55,11 @@
 
 		<footer class="footer">
 
-			<a class="icon icon-twitter" href="http://twitter.com/adamcbrewer" target="_blank" title="Twitter"></a> <a class="icon icon-github" href="http://github.com/adamcbrewer" target="_blank" title="Github"></a> <a class="icon icon-linkedin" href="http://za.linkedin.com/in/adamcbrewer" target="_blank" title="LinkedIn"></a> <a class="icon icon-gplus" href="https://plus.google.com/u/0/109651434155076896860/" target="_blank" title="Google Plus"></a>
+			<a class="icon icon-twitter" href="http://twitter.com/adamcbrewer" target="_blank" title="Twitter"></a>
+			<a class="icon icon-github-circled-alt2" href="http://github.com/adamcbrewer" target="_blank" title="Github"></a>
+			<a class="icon icon-folder" href="http://brewerlogic.com" target="_blank" title="brewerlogic.com"></a>
+			<a class="icon icon-linkedin" href="http://za.linkedin.com/in/adamcbrewer" target="_blank" title="LinkedIn"></a>
+			<a class="icon icon-gplus" href="https://plus.google.com/u/0/109651434155076896860/" target="_blank" title="Google Plus"></a>
 
 		</footer>
 
