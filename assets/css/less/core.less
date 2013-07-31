@@ -4,7 +4,7 @@
 
 @import "libs/helpers.less";
 @import "libs/normalize.less";
-@import "fontello.less";
+// @import "fontello.less";
 
 
 
@@ -83,7 +83,18 @@ a:focus {}
 }
 
 .footer {
-    a { margin-right: 0.4em; }
+    margin-top: 3em;
+    text-align: justify;
+    font-size: 0.7em;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    a {
+        // margin-right: 0.4em;
+    }
+    a:last-child:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+    }
 }
 .header {
     color: lighten(@c-text, 55%);

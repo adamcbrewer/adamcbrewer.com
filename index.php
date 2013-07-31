@@ -44,22 +44,43 @@
 		<header class="header">
 			<p>
 				<?= date('F Y', time('now')); ?><br />
-				<small>Senior Developer at Saatchi, London</small>
+				<small>Freelancer, London</small>
 			</p>
 		</header>
 
 		<h1>Hi, I'm Adam Brewer.</h1>
-		<p>I'm a feverent front-end web developer and Webmaker; I love what I do and <a href="http://saatchi.co.uk/" target="_blank" title="Saatchi &amp; Saatchi">who</a> I do it for.</p>
-		<p>My passions lie in running ultra-marathons, coding for the Web, wine and paleo food. I used to be an Aircraft Technician in the British Army so I have quite a few stories to tell.</p>
-		<p>You can find my work at <a href="http://brewerlogic.com" target="_blank">brewerlogic.com</a> and lots of other little places around the web.</p>
+		<p>
+			I'm a fervent front-end Web Developer and Webmaker whose passion lies in
+			all things Javascript, HTML and CSS. I have a fairly comprehensive front-end
+			skill set with some back-end experience as well. I'm always eager to learn
+			anything new.
+		</p>
+		<p>
+			I build semantic, mobile-responsive websites and apps optimised for both speed
+			and performance, utilising good front-end practices and complying with modern
+			web standards and features.
+		</p>
+		<p>
+			My other interests include running, reading, wine and Paleo food. I used to be
+			an Aircraft Technician in the British Army so I have quite a few stories to tell!
+		</p>
+		<p>
+			You can find my work at <a href="http://brewerlogic.com" target="_blank">brewerlogic.com</a> and lots of other little places around the web.
+		</p>
 
 		<footer class="footer">
 
+			<a href="http://brewerlogic.com" target="_blank" title="brewerlogic.com">Portfolio</a>
+			<a href="http://github.com/adamcbrewer" target="_blank" title="Github">Github</a>
+			<a href="http://za.linkedin.com/in/adamcbrewer" target="_blank" title="LinkedIn">LinkedIn</a>
+			<a href="http://twitter.com/adamcbrewer" target="_blank" title="Twitter">Twitter</a>
+			<? /*
 			<a class="icon icon-twitter" href="http://twitter.com/adamcbrewer" target="_blank" title="Twitter"></a>
 			<a class="icon icon-github-circled-alt2" href="http://github.com/adamcbrewer" target="_blank" title="Github"></a>
 			<a class="icon icon-folder" href="http://brewerlogic.com" target="_blank" title="brewerlogic.com"></a>
 			<a class="icon icon-linkedin" href="http://za.linkedin.com/in/adamcbrewer" target="_blank" title="LinkedIn"></a>
 			<a class="icon icon-gplus" href="https://plus.google.com/u/0/109651434155076896860/" target="_blank" title="Google Plus"></a>
+			*/ ?>
 
 		</footer>
 
