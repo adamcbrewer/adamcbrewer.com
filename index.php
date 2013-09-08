@@ -44,21 +44,28 @@
 		<header class="header">
 			<p>
 				<?= date('F Y', time('now')); ?><br />
-				<small>Freelancer, London</small>
+				<small>Freelance Web Developer, London</small>
 			</p>
 		</header>
 
 		<h1>Hi, I'm Adam Brewer.</h1>
 		<p>
-			I'm a fervent front-end Web Developer and Webmaker whose passion lies in
-			all things Javascript, HTML and CSS. I have a fairly comprehensive front-end
-			skill set with some back-end experience as well. I'm always eager to learn
-			anything new.
+			I'm a fervent front-end Web Developer and Webmaker whose passions lie in
+			the Internet, running, nutrition. I love learning how to do new things
+			and suprise myself.
 		</p>
 		<p>
 			I build semantic, mobile-responsive websites and apps optimised for both speed
 			and performance, utilising good front-end practices and complying with modern
-			web standards and features.
+			web standards and features. I know about usability, browser compatibility and
+			the ubiquitous HTML, CSS and JavaScript triad. I have a fairly comprehensive front-end
+			skill set with some back-end experience.
+		</p>
+		<p>
+			My bragging rights: I'm a 5-year British Army veteran; I've run 100 miles in a single 24-hour period;
+			I've sailed across the Atlantic on a
+			<a href="http://en.wikipedia.org/wiki/Challenge_67" target="_blank" title="Challenger 67">67ft Challenger</a>;
+			I've bungied the highest commercial bungee in the world; I've been shark cage diving; I like bovril on scrambled eggs.
 		</p>
 		<p>
 			You can find my work at <a href="http://brewerlogic.com" target="_blank">brewerlogic.com</a> and lots of other little places around the web.
