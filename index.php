@@ -52,8 +52,21 @@
 		<p>
 			I'm a fervent front-end Web Developer and Webmaker whose passions lie in
 			the Internet, running, nutrition. I love learning how to do new things
-			and suprise myself.
+			and surprising myself.
 		</p>
+		<p>
+			I build websites and web-applications, freelancing under <a href="http://brewerlogic.com" title="my portfolio">brewerlogic.com</a>.
+			I focus on semantic, responsive builds, optimising for both speed and performance.
+			I work hard at keeping up to date with new developments in the industry as well as
+			utilising good front-end practices while complying with modern web standards and features.
+			I know about JavaScript, usability, browser compatibility and I have a fairly comprehensive front-end
+			skill set, including some back-end experience using Node.js and PHP.
+		</p>
+		<p>
+			Please feel free to <a href="mailto:adam@brewerlogic.com" title="email me">get in touch</a>,
+			<a href="http://brewerlogic.com" target="_blank">browse my work</a> or find me elsewhere on the web.
+		</p>
+		<?/*
 		<p>
 			I build semantic, mobile-responsive websites and apps optimised for both speed
 			and performance, utilising good front-end practices and complying with modern
@@ -70,11 +83,12 @@
 		<p>
 			You can find my work at <a href="http://brewerlogic.com" target="_blank">brewerlogic.com</a> and lots of other little places around the web.
 		</p>
+		*/?>
 
 		<footer class="footer">
 
-			<a href="http://brewerlogic.com" target="_blank" title="brewerlogic.com">Portfolio</a>
-			<a href="http://github.com/adamcbrewer" target="_blank" title="Github">Github</a>
+			<a href="http://brewerlogic.com" target="_blank" title="brewerlogic.com">Work</a>
+			<a href="http://github.com/adamcbrewer" target="_blank" title="GitHub">Github</a>
 			<a href="http://za.linkedin.com/in/adamcbrewer" target="_blank" title="LinkedIn">LinkedIn</a>
 			<a href="http://twitter.com/adamcbrewer" target="_blank" title="Twitter">Twitter</a>
 
